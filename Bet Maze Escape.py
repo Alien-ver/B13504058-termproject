@@ -111,7 +111,14 @@ def display_end_options(message):
 
 def main():
     # 初始化賭注
-    bet = int(input("Enter your initial bet amount: "))
+    bet = 0
+    while bet <= 0:
+        try:
+            bet = int(input("Enter your initial bet amount (must be greater than 0): "))
+            if bet <= 0:
+                print("The bet amount must be greater than 0. Please try again.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
     total_winnings = 0  # 初始化贏得的賭金總額
     time_limit = 90  # 初始時間限制
 
