@@ -111,7 +111,7 @@ MazeEscape/
 
 ## (5) 參考資料來源 References
 1. [小精靈](https://g.co/kgs/tsfw7wU) - 靈感來源
-2. ChatGPT - 協助涉及pygame的程式碼書寫與。對話內容如下：
+2. [ChatGPT](https://openai.com/index/chatgpt/) - 協助涉及pygame的程式碼書寫與。對話內容如下：
    - 如何使用python生成隨機迷宮
    - 如何使用Pygame將迷宮繪製為圖形化介面
    - 如何允許玩家使用鍵盤控制角色移動
