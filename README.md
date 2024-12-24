@@ -111,7 +111,11 @@ MazeEscape/
 
 ## (5) 參考資料來源 References
 1. [小精靈](https://g.co/kgs/tsfw7wU) - 靈感來源
-2. ChatGPT - 協助涉及pygame的程式碼書寫與。
+2. ChatGPT - 協助涉及pygame的程式碼書寫與。對話內容如下：
+   - 如何使用python生成隨機迷宮
+   - 如何使用Pygame將迷宮繪製為圖形化介面
+   - 如何允許玩家使用鍵盤控制角色移動
+   - 如何讓鍵盤跟滑鼠可以同時操控角色移動
 
 
 ## (6) 程式修改或增強的內容 Enhancements and Contributions
@@ -119,9 +123,11 @@ MazeEscape/
 1. **計時與步數**：根據開始時間與結束時間計算花費時間，並在遊戲結束後顯示
 2. **重新遊玩選項**：結合上課所學的迴圈與原程式中的代碼，在display_end_options中添加選項文字與While迴圈並使其顯示。並調整間距使其不與上方文字重疊
 3. **箭頭鍵移動**：仿照pygame.K_w的邏輯加入pygame.K_UP等能用箭頭鍵控制的選項，並將原本的==修改為能同時監測W/A/S/D和箭頭鍵的in
-4. **調整顯示顏色**：將牆面及方塊顏色等調整為較舒適的顏色
-5. **賭注遊戲**：融合課程所學將純迷宮遊戲加上賭注，增加刺激與趣味性。
+4. **調整顯示顏色**：將牆面及方塊顏色等調整為為我認為較舒適的顏色，但玩家也能在程式執行前透過修改顏色變數製作自己喜歡的配色
+5. **賭注遊戲**：賭注的部分是我融合課程所學到的賭場翻倍押注程式改編的，為了能增加遊戲的刺激與趣味性，將迷宮遊戲加上投注賭金的part
 6. **改善顯示頁面**：使用\n將原本超出顯示螢幕的文字訊息格行顯示，使畫面較一目了然。
 
+This README is made by myself.
 We encourage further modifications and look forward to 
 community contributions to improve Bet Maze Escape further.
+
